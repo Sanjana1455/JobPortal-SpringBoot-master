@@ -5,7 +5,7 @@ FROM openjdk:8-jdk-alpine
 WORKDIR /app
 
 # Copy the built JAR file into the container
-COPY target/JobPortal-SpringBoot-master.jar app.jar
+COPY target/JobPortal-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the application port
 EXPOSE 8081
